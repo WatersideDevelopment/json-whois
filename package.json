@@ -1,0 +1,35 @@
+{
+  "name": "json-whois",
+  "version": "0.0.1",
+  "description": "json-whois parses, normalizes, and returns whois data. Ideal for network, availability or unit testing",
+  "keywords": [
+    "whois",
+    "json"
+  ],
+  "homepage": "http://github.com/WatersideDevelopment/json-whois",
+  "author": {
+    "name": "D. Rimron-Soutter",
+    "email": "darran@xalior.com",
+    "url": "http://github.com/Xalior"
+  },
+  "bugs": {
+    "url": "http://github.com/WatersideDevelopment/json-whois/issues",
+    "email": "support@WatersideDevelopment.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/WatersideDevelopment/json-whois.git"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "git://github.com/WatersideDevelopment/json-whois/LICENSE"
+  },
+  "engines": {
+    "node": ">=0.8.5"
+  },
+  "dependencies": {},
+  "main": "lib/json-whois",
+  "scripts": {
+  },
+  "directories": {}
+}

@@ -8,8 +8,7 @@ var jsonwhois = require('../lib/json-whois');
 process.env.INIT_CWD = process.cwd();
 
 var callback = function(err, json, isAvailable) {
-	console.log(JSON.stringify(json));
-	return 0;
+	return isAvailable;
 };
 
-jsonwhois(process.argv[2], callback);
+return jsonwhois(process.argv[2], callback);
